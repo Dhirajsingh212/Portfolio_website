@@ -1,0 +1,46 @@
+.fixed{
+    height: 27em;
+    width: 25em;
+    position: absolute;
+    top: -73vh;
+    left: 18%;
+    background-color:#40b3a2;
+    border-radius: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: inline-table;
+  }
+  
+  .fixed img{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+  
+  .fixed p{
+    margin-left: 25%; 
+    margin-top: 10%;
+    font-size: 2em; 
+    letter-spacing: 0.1em;
+    word-spacing: 1vh;
+  }
+  
+  .fixed p:last-child
+  {
+    margin-left:27%;
+    letter-spacing: 5px;
+  }
+  
+  .fixed hr{
+    width: 10em;
+    position: relative;
+    left: 7.5em;
+  }
+  
+
+  @media screen and (max-width:1007px) {
+      .fixed{
+        display: none;
+      }
+  }

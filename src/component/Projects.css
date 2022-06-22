@@ -1,0 +1,24 @@
+.projects{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #85cdca;
+    padding: 2em 5em 1em 8em;
+    margin-bottom: 3em;
+}
+
+.projects_ul{
+  padding-left: 10em;
+}
+
+.projects_ul li{
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width:1007px) {
+  .projects{
+    padding: 2em 0 1em 4em;
+  }
+    .projects_ul{
+      padding-left: 0;
+    }
+}
